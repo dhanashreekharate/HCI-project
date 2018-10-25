@@ -1,0 +1,86 @@
+/* 
+	Login page
+					*/
+body {
+	background-image: url("images/iphoneOL.jpg");
+	background-repeat: no-repeat;
+	
+	
+}
+
+
+#screen {
+	height: 530px;
+	width: 300px;
+	margin: 105px 23px;
+	background-color: #30bee2;
+}
+
+.head-bar {
+
+	border-bottom: 2px solid white;
+	color:white;
+	text-shadow: 1px 1px black;
+	font-family: Avenir, sans-serif;
+	width: 300px;
+    height: 60px;
+	
+}
+
+.back-button {
+	width:50px;
+	height:40px;
+	margin-left: 5px;	
+	margin-top: 5px;
+
+}
+
+.bar-item{
+	display:inline-block;
+}
+
+.title {
+	
+	font-family: 'Avenir', sans-serif;
+	font-size: 13px;
+	margin-left: 15px;
+	margin-top: 30px;
+}
+.title2{
+	font-family: 'Avenir', sans-serif;
+	font-size: 8px;
+	margin-top: 3px;
+	margin-left: 15px;
+
+}
+.txt{
+	width: 260px;
+	height: 30px;
+	border-radius: 5px;
+	border-top: 1px solid grey;
+	border-left: 1px solid grey;
+	background-color: #fff;
+	color: grey;
+
+}
+
+.login{
+	font-family: 'Avenir', sans-serif;
+	text-align: center;
+	height: 50px;
+	width: 150px;
+	border: 2px solid white;
+	color: white;
+	margin-left: 70px;
+	font-size: 11px;	
+	border-radius: 8px;
+	text-decoration: none;
+}
+
+li {
+	font-size: 25px;
+	color: grey;
+	margin-top: -15px;
+}
+
+

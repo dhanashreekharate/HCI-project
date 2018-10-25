@@ -1,0 +1,128 @@
+/* 
+	Global classes 
+					*/
+body {
+	background-image: url("images/iphoneOL.jpg");
+	background-repeat: no-repeat;
+	font-family: Avenir, sans-serif;
+	}
+
+
+#screen {
+	height: 530px;
+	width: 300px;
+	margin: 105px 23px;
+}
+
+.head-bar {
+	height: 95px;
+	width: 297px;
+	color: white;
+	position: relative;
+	top: 55px;
+	font-size: 145%;
+	text-shadow: -1px -1px 1px #000;
+	text-align: center;
+	font-family: 'Libre Baskerville', serif;
+	
+}
+
+.login{
+	height: 55px;
+	width: 180px;
+	border: 2px solid white;
+	color: white;
+	position: relative;
+	left: 58px;
+	top: 195px;
+	background-color: #EF9960;
+	text-align: center;
+	border-radius: 8px;
+}
+
+.sign-up{
+	height: 55px;
+	width: 180px;
+	border:2px solid white;
+	color: white;
+	position: relative;
+	left: 58px;
+	top: 235px;
+	background-color: #77BCA7;
+	text-align: center;
+	border-radius: 8px;
+	text-decoration: none;
+}
+
+.headbar {
+	height: 35px;
+	width: 297px;
+	/*border: 2px solid black;*/
+	border-bottom: 2px solid white;
+	text-align: center;
+}
+
+.back-button
+{
+	position: relative;
+	bottom: 3px;
+	left: 5px;
+}
+
+.timer{
+	border-radius: 50%;
+	width: 46px;
+	height: 46px;
+	padding: 20px;
+	background-color: #FFF;
+	border: 2px solid #666;
+	color: #666;
+	text-align: center;
+	position: relative;
+	left: 110px;
+	bottom: 140px;
+}
+.inhale {
+	height: 55px;
+	width: 180px;
+	border: 2px solid green;
+	color: white;
+	background-color: #73E33B;
+	position: relative;
+	left: 58px;
+	top: 195px;
+	text-align: center;
+	border-radius: 8px;
+
+}
+
+
+.stop{
+	height: 55px;
+	width: 260px;
+	border: 2px solid red;
+	background-color: #F06262;
+	color: white;
+	position: relative;
+	left: 19px;
+	top: 290px;
+	text-align: center;
+	border-radius: 8px;
+}
+
+.time-elapsed{
+	height: 30px;
+	width: 260px;
+	position: relative;
+	left: 15px;
+	top: 160px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+

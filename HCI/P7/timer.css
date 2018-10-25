@@ -1,0 +1,149 @@
+/* 
+	Global classes 
+					*/
+body {
+	background-image: url("images/iphoneOL.jpg");
+	background-repeat: no-repeat;
+	font-family: Avenir, sans-serif;
+	}
+
+
+#screen {
+	height: 530px;
+	width: 300px;
+	margin: 105px 23px;
+}
+
+.head-bar {
+	height: 95px;
+	width: 297px;
+	color: white;
+	position: relative;
+	top: 55px;
+	font-size: 145%;
+	text-shadow: -1px -1px 1px #000;
+	text-align: center;
+	font-family: 'Libre Baskerville', serif;
+	
+}
+
+.login{
+	height: 55px;
+	width: 180px;
+	border: 2px solid white;
+	color: white;
+	position: relative;
+	left: 58px;
+	top: 195px;
+	background-color: #EF9960;
+	text-align: center;
+	border-radius: 8px;
+}
+
+.sign-up{
+	height: 55px;
+	width: 180px;
+	border:2px solid white;
+	color: white;
+	position: relative;
+	left: 58px;
+	top: 235px;
+	background-color: #77BCA7;
+	text-align: center;
+	border-radius: 8px;
+	text-decoration: none;
+}
+
+.headbar {
+	height: 35px;
+	width: 297px;
+	border-bottom: 2px solid white;
+	text-align: center;
+}
+
+.back-button
+{
+	position: relative;
+	bottom: 3px;
+	left: 5px;
+}
+
+.circle{
+	border-radius: 80px;
+	height: 150px;
+	width: 150px;
+	border: 2px solid;
+	border-color:white; 
+	
+   margin:70px 100px 0px 70px;
+}
+
+.cell{
+    
+    width: 1em;  
+    height: 1em;
+   /* border:1px dashed rgba(255,255,255,0.1);*/
+   /* border-radius: 46px;*/
+    font-size:120px;
+    overflow: hidden;
+    position:absolute;
+    
+      
+    margin:90px 100px 0px 85px;
+   /* opacity:0;
+    animation:go 6s;
+    transform-origin:left bottom;*/
+}
+.num{
+    position:absolute;
+    width: 1em;
+    color:#E53F39;
+    line-height: 1em;  
+    text-align: center;
+    text-shadow:1px 1px 2px rgba(255,255,255,.3);
+    /*animation:run 6s steps(6);*/
+}
+/*@keyframes run{
+    0%{top:0;}
+    100%{top:-6em;}
+}
+@keyframes go{
+  0%   {opacity:1;}
+  84%  {opacity:1;transform:rotate(0deg) scale(1);}
+  100% {opacity:0;transform:rotate(360deg) scale(.01);}
+}
+*/
+
+.start{
+	height: 55px;
+	width: 220px;
+	border: 2px solid #77BA68;
+	background-color: #269D80;
+	color: white;
+	margin-top: 20px;
+	margin-left: 40px;
+	text-align: center;
+	border-radius: 8px;
+	}
+
+.stop{
+	height: 55px;
+	width: 220px;
+	border: 2px solid tomato;
+	background-color: #E53F39;
+	color: white;
+	margin-top: 5px;
+	margin-left: 40px;
+	text-align: center;
+	border-radius: 8px;
+}
+
+#Task{
+
+	margin-top: 10px;
+	margin-left: 8px;
+	text-align: center;
+	color: white;
+	font-size: 35px;
+}
+

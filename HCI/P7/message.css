@@ -1,0 +1,133 @@
+body {
+    background-image: url("images/iphoneOL.jpg");
+    background-repeat: no-repeat;
+    font-family: Avenir, sans-serif;
+}
+
+
+#screen {
+    height: 530px;
+    width: 300px;
+    margin: 105px 23px;
+    background-color: #30bee2;
+}
+
+.head-bar {
+    border-bottom: 2px solid;
+    border-color: white;
+    color:white;
+    text-shadow: 1px 1px black;
+
+    
+    
+}
+
+
+.back-button {
+
+    margin-left: 5px;   
+    margin-top: 10px;
+    position: relative;
+    top: 3px;
+    left: 4px;
+
+
+
+}
+
+.bar-item{
+    display:inline-block;
+}
+
+/* Chat containers */
+.container {
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px 5px;
+
+}
+
+
+
+/* Darker chat container */
+.darker {
+    border-color: #ccc;
+    background-color: #ddd;
+}
+
+/* Clear floats */
+.container::after {
+    content: "";
+    clear: both;
+    display: table-rows;
+}
+
+/* Style images */
+.container img {
+    float: right;
+    max-width: 40px;
+    width: 50%;
+    margin-right: 0px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+
+/* Style the right image */
+.container img.right {
+    float: left;
+    margin-left: 0px;
+    margin-right:10px;
+    margin-bottom: 5px;
+}
+
+/* Style time text */
+.time-right {
+    margin-top: -15px;
+    float: right;
+    color: #aaa;
+}
+
+/* Style time text */
+.time-left {
+    margin-top: -15px;
+    float: left;
+    color: #999;
+}
+
+.type-message{
+    
+    margin-left: 5px;
+    margin-top: 20px;
+
+}
+
+.txt{
+    font-size: 15px;
+    width: 290px;
+    height: 80px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    background-color: #eee;
+
+}
+
+#textSend{
+    opacity: 0;
+}
+
+
+
+.send{
+    font-family: 'Avenir', sans-serif;
+    text-align: center;
+    height: 40px;
+    width: 120px;
+    border: 2px solid white;
+    color: white;
+    margin-left: 80px;
+    font-size: 9px;    
+    border-radius: 8px;
+    text-decoration: none;
+}

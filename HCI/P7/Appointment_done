@@ -1,0 +1,17 @@
+<html>
+<header>
+   <title>counselling</title>
+   <link rel="stylesheet" type="text/css" href="counseling.css"/>
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"/>
+   <link href="https://fonts.googleapis.com/css?family=Acme|Montserrat" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</header>
+
+<body>
+	<div id="screen">
+	<p style="margin-top: 50px;margin-left: 30px">You have succesfully scheduled an appointment!</p>
+      <a href="computerproto.html"><button style="width: 150px;margin-left: 75px;margin-top: 50px">Home page</button></a>
+	</div>
+</body>
+</html>

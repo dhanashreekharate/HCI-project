@@ -1,0 +1,75 @@
+/* 
+	Global classes 
+					*/
+body {
+	background-image: url("images/iphoneOL.jpg");
+	background-repeat: no-repeat;
+	font-family: Avenir, sans-serif;
+}
+
+/* ipod screen dimensions */
+#screen {
+	height: 530px;
+	width: 300px;
+	margin: 105px 23px;
+	background-color: #30bee2;
+}
+
+
+
+/*head bar propertes */
+.head-bar{
+	border-bottom: 2px solid white;
+	text-shadow: 1px 1px black;
+	height: 45px; 
+	width: 300px;
+    font-family : 'Libre Baskerville', serif;
+    text-align: center;
+    font-size: 15px;
+    text-align: center;
+
+}
+
+
+.wrapper_images{
+  display:inline-block;
+  text-decoration: none;
+  margin-top:80px;
+  line-height:50px;
+  margin-left:30px;
+  padding-right:30px;
+  padding-left:5px;
+  text-align: center;
+ }
+
+
+.name{
+	text-align: center;
+	line-height: 1px;
+	font-style: bold;
+	font-family : 'Libre Baskerville', serif;
+	color: white;
+}
+
+
+.header{
+	font-size:13px;
+	margin-left: 5px;
+	font-family: 'Libre Baskerville', serif;
+line-height: 40px;
+
+
+
+}
+
+.logout{
+	margin-left: 250px;
+	margin-top: -3px;
+}
+
+.lock{
+	margin-left: 250px;
+	margin-top: -50px;
+}
+
+

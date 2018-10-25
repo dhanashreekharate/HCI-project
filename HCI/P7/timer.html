@@ -1,0 +1,47 @@
+<html>
+<header>
+	<title>Timer</title>
+	<link rel="stylesheet" type="text/css" href="timer.css"/>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    
+</header>
+	<body>
+		<div id="screen" style="background-color: #30BEE2">						<!--Screen-->
+			<div class="headbar" style="color: white;position: relative;top: 30px;">				<!--Title bar-->
+				<h2>Breathing Exercise</h2>
+			</div>
+
+			<div class="back-button">
+				<a href="computerproto.html" style="text-decoration: none;color: white;">
+				<i class="material-icons" style="color: white;">arrow_back</i></a>	
+			</div>
+
+			<div class="cell">
+				  <div class="num" id="Counter">5</div>
+			</div>
+			<div class="circle"></div>
+
+			<div>
+				<p id="Task">Breathe in</p>
+			</div>
+
+			<button class="start" onclick="switchPlay()">
+				<div id="start">START</div>
+			</button> 
+
+			<button class="stop" onclick="reset()">
+				<div>STOP</div>
+			</button> 
+
+			
+
+		</div>
+		<script src="timer.js"></script>
+
+
+		</body>
+</html>
+<!-- 
+* bg iphone img is 363x762px
+* iphone 'screen' is apprx 300x530 -->
